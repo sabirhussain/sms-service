@@ -1,6 +1,6 @@
 
 # Introduction
-Sample spring boot app, showcasing speration of unit and integration test.
+Sample spring boot app, showcasing separation of unit and integration test.
 
 # Setup
 ## Prerequisite
