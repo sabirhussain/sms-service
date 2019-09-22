@@ -35,7 +35,7 @@ public class SmsProcessor {
 	}
 
 	public boolean isBlocked(String to, String from) {
-		String key = to + "_" + from;
+		String key = from + "_" + to;
 		return repository.exists(key);
 	}
 
