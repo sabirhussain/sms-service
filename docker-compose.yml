@@ -17,7 +17,7 @@ services:
       - "6379:6379"
 
   auzmor-sms-service:
-    image: sabirhussain79/sms-service:v1.0.0
+    image: sabirhussain79/sms-service:v1.0.1
     ports:
       - "8080:8080"
     links:

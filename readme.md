@@ -17,6 +17,10 @@ $ git clone https://github.com/sabirhussain/sms-service.git
 $ mvnw clean install
 ```
 ## Build with Integration Test
+> To integration test cases, make sure redis is up and running.
+> Use below docker command for redis.
+> $ docker run --name auzmor-redis -d -p 6379:6379 redis redis-server --appendonly yes
+
 ```bash
 $ mvnw clean install -Denv=int-test
 ```
